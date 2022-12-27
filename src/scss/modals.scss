@@ -24,7 +24,7 @@
 
   .modal__form {
     border-left: 1px solid #41f6d7;
-    background: #fff;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,10 +50,6 @@
     }
   }
 
-  .modal__note {
-    padding: 12px 32px;
-  }
-
   .modal__input--text {
     height: 120px;
   }
@@ -64,7 +60,37 @@
     text-decoration: none;
   }
 }
+.title__modal {
+  font-family: 'TTLakes-Bold', 'Arial', sans-serif;
+  color: #1b1c21;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
 
+  margin-left: 16px;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.modal__note {
+  font-family: 'TTLakes-Medium', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7e7e82;
+
+  padding: 12px 32px;
+}
+.modal__button {
+  background: transparent;
+  margin-left: 16px;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.button__order {
+  width: 136px;
+  height: 32px;
+  background: transparent;
+}
 .modal--show {
   display: block;
 }
