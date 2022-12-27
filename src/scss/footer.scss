@@ -1,0 +1,25 @@
+.page__footer {
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 20px;
+  position: relative;
+
+  @media (max-width: 767.9px) {
+    text-align: center;
+  }
+}
+.footer__list li {
+  margin-bottom: 16px;
+
+  list-style: none;
+  font-family: 'TT Lakes';
+  font-size: 14px;
+  line-height: 16px;
+
+  text-align: center;
+
+  color: #7e7e82;
+
+  mix-blend-mode: normal;
+  opacity: 0.72;
+}

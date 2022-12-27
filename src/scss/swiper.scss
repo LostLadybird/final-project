@@ -1,0 +1,43 @@
+.swiper-container {
+  display: block;
+  @media (min-width: 768px) {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  margin-left: 16px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.swiper-wrapper {
+  @media (min-width: 768px) {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  max-height: 170px;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.swiper-pagination-bullet {
+  background-color: #b5b6bc;
+  width: 12px;
+  height: 12px;
+}
+.swiper-pagination.swiper-pagination-bullets {
+  position: relative;
+  bottom: 5px;
+}
+.swiper-pagination {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.swiper-pagination.prices {
+  margin-bottom: -5px;
+}
+.swiper-scrollbar {
+  background: none;
+}

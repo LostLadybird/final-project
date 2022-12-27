@@ -1,0 +1,36 @@
+.button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.button.burger {
+  background: url(../img/burger.svg);
+}
+.button.call {
+  background: url(../img/call.svg);
+}
+.button.chat {
+  background: url(../img/chat.svg);
+}
+.button.profile {
+  background: url(../img/profile.svg);
+}
+.button.repair {
+  background: url(../img/repair.svg);
+  margin-left: 20px;
+}
+.button.checkstatus {
+  background: url(../img/checkstatus.svg);
+}
+.button.close {
+  background-image: url(../img/close.svg);
+}
+.button.search {
+  background-image: url(../img/search.svg);
+}
+.form__button {
+  background-image: url(../img/close.svg);
+  background-repeat: no-repeat;
+}

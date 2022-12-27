@@ -1,0 +1,5 @@
+import '../scss/style.scss'
+import './main-info-button'
+import './swiper.js'
+import './button'
+import './menu'

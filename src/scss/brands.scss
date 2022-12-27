@@ -1,0 +1,107 @@
+.brands {
+  max-width: 1120px;
+  min-width: 320px;
+  background-color: #f8f8f8;
+}
+.brands__title {
+  min-height: 56px;
+  background-color: #ffffff;
+  font-family: 'TTLakes-Light', 'Arial', sans-serif;
+  font-size: 16px;
+  color: #7e7e82;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 16px;
+}
+
+.card {
+  display: flex;
+  flex-shrink: 0;
+  height: 72px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  margin-right: 10px !important;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+
+  @media (max-width: 767.9px) {
+    width: 240px !important;
+  }
+  @media (min-width: 768px) and (max-width: 1119.9px) {
+    width: 224px !important;
+  }
+  @media (min-width: 1120px) {
+    width: 240px !important;
+  }
+}
+.brands__tabs_link {
+  position: relative;
+  top: 16px;
+  @media (max-width: 767.9px) {
+    left: 184px;
+  }
+  @media (min-width: 768px) and (max-width: 1119.9px) {
+    left: 168px;
+  }
+  @media (min-width: 1120px) {
+    left: 184px;
+  }
+}
+.brands__tabs_lenovo {
+  background-image: url(../img/Lenovo.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 20px;
+}
+.brands__tabs_samsung {
+  background-image: url(../img/Samsung.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 17px;
+}
+.brands__tabs_apple {
+  background-image: url(../img/Apple.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 12px;
+}
+.brands__tabs_bosch {
+  background-image: url(../img/Bosch.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 21.7px;
+}
+.brands__tabs_hp {
+  background-image: url(../img/HP.svg);
+  background-repeat: no-repeat;
+  background-position: left 10px top 10px;
+}
+.brands__tabs_acer {
+  background-image: url(../img/Acer.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 24px;
+}
+.brands__tabs_view-sonic {
+  background-image: url(../img/ViewSonic.svg);
+  background-repeat: no-repeat;
+  background-position: left 14px top 26px;
+}
+.brands__tabs_sony {
+  background-image: url(../img/Sony.svg);
+  background-repeat: no-repeat;
+  background-position: left 14px top 23px;
+}
+
+.page__button {
+  position: relative;
+}
+.page__button.page__320_hidden {
+  @media (max-width: 767.9px) {
+    display: none;
+  }
+}
+.page__button_text {
+  border: none;
+  line-height: 24px;
+  font-family: 'TTLakes-DemiBold', 'Arial', sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
